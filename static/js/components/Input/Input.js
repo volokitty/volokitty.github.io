@@ -1,14 +1,17 @@
 const Input = (employeesNumber) => {
     return (
-        `
-            <input
-                class="app__input"
-                type="range"
-                value="${employeesNumber}"
-                min="0"
-                max="${employeesNumber}"
-                step="1"
-            >
+        `   
+            <div app__input-container>
+                <div>Cards number</div>
+                <input
+                    class="app__input"
+                    type="range"
+                    value="${employeesNumber}"
+                    min="0"
+                    max="${employeesNumber}"
+                    step="1"
+                >
+            </div>
         `
     );
 }
