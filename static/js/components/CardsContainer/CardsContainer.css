@@ -1,0 +1,20 @@
+.app__cards-container {
+    display: flex;
+}
+
+.app__cards {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:1280px) {
+    .app__cards {
+        
+    }
+}
+
+@media (max-width:768px) {
+    .app__cards {
+        flex-direction: column;
+    }
+}

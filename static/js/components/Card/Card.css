@@ -1,0 +1,71 @@
+.card {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #EBEEF5;
+    background-color: #FFF;
+    border-radius: 12px;
+    padding: 20px;
+    margin-right: 40px;
+    margin-bottom: 24px;
+}
+
+.card__img {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+.card__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.card__name {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card__email {
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.card__side-info-block {
+    margin-top: 8px;
+    display: inline-flex;
+}
+
+.card__side-info {
+    display: inline-flex;
+    padding: 8px 12px;
+    background-color: #EBEEF5;
+    border-radius: 8px;
+}
+
+.card__field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 44px;
+}
+
+.card__value {
+    font-size: 16px;
+}
+
+.card__field:nth-child(n+2) {
+    margin-left: 16px;
+}
+
+.card__header {
+    font-size: 12px;
+    color: #B5BDD1;
+}
+
+@media (max-width:768px) {
+    .card {
+        margin-right: 0;
+    }
+}

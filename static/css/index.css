@@ -1,0 +1,23 @@
+@import "../js/components/App/App.css";
+@import "../js/components/Card/Card.css";
+@import "../js/components/CardsContainer/CardsContainer.css";
+@import "../js/components/Input/Input.css";
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    color: #213749;
+}
+
+#root {
+    padding-top: 24px;
+    padding-left: 24px;
+}
+
+.dark {
+    background-color: #213749;
+    color: #FFF;
+}
