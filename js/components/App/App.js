@@ -11,10 +11,10 @@ const App = (props, employeesNumber) => {
                 <div class="app__buttons">
                     <div class="app__theme-changer">Change theme</div>
                     <a target="_blank" href="https://instagram.com/volokitty">
-                        <img src="static/img/instagram.svg">
+                        <img src="img/instagram.svg">
                     </a>
                     <a target="_blank" href="https://vk.com/volokitty">
-                        <img src="static/img/vk.svg">
+                        <img src="img/vk.svg">
                     </a>
                 </div>
                 ${Input(employeesNumber)}
