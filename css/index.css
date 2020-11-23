@@ -21,3 +21,9 @@
     background-color: #213749;
     color: #FFF;
 }
+
+@media (max-width:768px) {
+    #root {
+        padding-left: 0;
+    }
+}
